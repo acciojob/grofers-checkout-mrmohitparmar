@@ -17,7 +17,7 @@ let td1 = document.createElement("td");
 let td2 = document.createElement("td");
 	td1.innerText = "Total Value ";
 	td2.innerText = sum;
-	td.id = "ans";
+	td2.id = "ans";
 	tr.append(td1);
 	tr.append(td2);
 	table.append(tr);
